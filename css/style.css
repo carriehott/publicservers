@@ -1,0 +1,39 @@
+@import url('reset.css');
+
+@font-face {
+  font-family: "roboto";
+  src: url('fonts/Roboto-VariableFont_wdth,wght.ttf');
+  font-weight: 500;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+margin: 0;
+  background-color: #efd408;
+  color: #070013;
+  font-family:"roboto";
+  width: 100vw; 
+  height: 100vh;
+  border: #070013 10px solid;
+}
+
+h1 {
+    font-size: 10rem;
+    font-family:"roboto";
+    font-weight: bold;
+    width: 100%;
+    margin: auto; 
+    padding: 3%; 
+}
+
+h3 {
+    font-size: 2rem;
+    font-family:"roboto";
+    font-weight: bold;
+    width: 100%;
+    margin: auto; 
+    padding: 3%; 
+}
